@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: #e4e4e4;
+}
+
+#contenedor {
+    margin: 0%;
+    padding: 0%;
+    background-color: #e4e4e4;
+}
+
+#fila_datos {
+    background-color: #9eeaff;
+    color: #000000;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+@media (min-width: 768px) {
+    #nombre_img {
+        margin: 0%;
+        padding: 0%;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #nombre_img {
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    #div_nombre {
+        padding-top: 40px;
+    }
+}
+
+#h1_nombre {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#h2_contacto {
+    margin-bottom: 10px;
+}
+
+.icono {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: small;
+}
+
+#cumpleaños {
+    visibility: hidden;
+}
+
+#fila_columnas_info {
+    margin: 0%;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.titulo_columna {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    #columna_informacion_personal {
+        padding-top: 10px;
+        border-bottom: 2px solid #000000;
+    }
+}
+
+@media (max-width: 767px) {
+    #columna_trayectoria_academica {
+        padding-top: 10px;
+        border-bottom: 2px solid #000000;
+    }
+}
+
+@media (max-width: 767px) {
+    #columna_experiencia_laboral {
+        padding-top: 10px;
+        border-bottom: 2px solid #000000;
+    }
+}
+
+@media (max-width: 767px) {
+    #columna_habilidades {
+        padding-top: 10px;
+        border-bottom: 2px solid #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    #columna_informacion_personal {
+        padding-left: 6px;
+        padding-right: 6px;
+        border-left: 4px solid #000000;
+        border-right: 2px solid #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    #columna_trayectoria_academica {
+        padding-left: 6px;
+        padding-right: 6px;
+        border-left: 2px solid #000000;
+        border-right: 2px solid #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    #columna_experiencia_laboral {
+        padding-left: 6px;
+        padding-right: 6px;
+        border-left: 2px solid #000000;
+        border-right: 2px solid #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    #columna_habilidades {
+        padding-left: 6px;
+        padding-right: 6px;
+        border-left: 2px solid #000000;
+        border-right: 4px solid #000000;
+    }
+}
+
+#fila_pasatiempos {
+    margin: 0%;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+}
+
+ul {
+    list-style-type: square;
+}
+
+@media (min-width: 768px) {
+    #lista_pasatiempos {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #lista_pasatiempos {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+#fila_botones {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 0%;
+    height: 80px;
+}
+
+.botones {
+    margin: 0%;
+    padding: 5px;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    button {
+        width: 230px;
+    }
+}
+
+@media (min-width:1678px) {
+    button {
+        min-width: 270px;
+    }
+}
+
+@media (min-width:1790px) {
+    button {
+        min-width: 289px;
+    }
+}
+
+@media (min-width:2014px) {
+    button {
+        min-width: 326px;
+    }
+}
+
+h6 {
+    margin: 0%;
+}
